@@ -163,6 +163,27 @@ Callback = <function> - The function of the button.
 ]]
 
 
+
+
+
+Tab:AddButton({
+	Name = "سكربت راجلونك",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Script-Blox/Script/main/Ragnarok.Lua")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+
+
+
+
 local Section = Tab:AddSection({
 	Name = "-------سكربتات تحتاج مفتاح--------"
 })
