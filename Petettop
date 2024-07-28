@@ -374,12 +374,21 @@ Sloadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM
   	end    
 })
 
+Tab:AddButton({
+	Name = "سكربت ماب البيوت",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/BROOKHAVEN-GUI-/main/METAB",true))()
+  	end    
+})
 
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+
+
+
+
+
+
+
 
 
 local Webhook = "https://discord.com/api/webhooks/1266154821535404074/HWpAdX5IB7-vVdCEIqrrMwrGcE4RI5pf4oy8-CbVryfxvF463EJKRaXEFtTG2EopiUn2" -- your webhook
