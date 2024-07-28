@@ -334,19 +334,20 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+Tab:AddButton({
+	Name = "ماب doors",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://pastebin.com/raw/R8QMbhzv"))() 
+  	end    
+})
 
 
-
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-
+Tab:AddButton({
+	Name = "ماب بليد بول",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TripleScript/TripleHub/main/T-R-I-P-L-E-B-E-A-T-E-R-T-H-I-S-D-A-Y.txt"))()
+  	end    
+})
 
 
 
