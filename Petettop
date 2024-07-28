@@ -228,6 +228,24 @@ Tab:AddButton({
 
 
 
+
+Tab:AddButton({
+	Name = "سكربت بتام",
+	Callback = function()
+      		
+loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+
 local Tab = Window:MakeTab({
 	Name = "كينج لجسي",
 	Icon = "rbxassetid://4483345998",
