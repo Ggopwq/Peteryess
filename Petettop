@@ -424,6 +424,32 @@ Tab:AddButton({
 
 
 Tab:AddButton({
+	Name = "سكربت ام ام تو 2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Flex Your FPS!",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Flex-Your-FPS!-Custom-FPS-Setter-16320"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+
+
+
+Tab:AddButton({
 	Name = "The strongest battleground",
 	Callback = function()
       		loadstring(game:HttpGet("https://freenote.biz/raw/xkcdkgyhkx",true))()
