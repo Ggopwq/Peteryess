@@ -27,7 +27,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "اصدار v0.012"
+	Name = "اصدار v0.013"
 })
 
 --[[
@@ -79,6 +79,17 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
   	end    
 })
+
+
+Tab:AddButton({
+	Name = "بريميوم ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
+  	end    
+})
+
+
+
 
 --[[
 Name = <string> - The name of the button.
@@ -207,7 +218,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 Tab:AddButton({
 	Name = "سكربت القمر او كوكا",
 	Callback = function()
-      		_G.Key = "rvnqvQetjr"
+      		_G.Key = "SAomXVvOqd"
 loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
   	end    
 })
@@ -443,6 +454,24 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "بليد بول 2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "ماب الرعب او دورز doors",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+
+
 
 
 
