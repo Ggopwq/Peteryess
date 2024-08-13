@@ -91,8 +91,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "ستك",
 	Callback = function()
-      		getgenv().Team = "Pirates"
-getgenv().Executor = "Android" -- Android or PC --
+  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua"))()
   	end    
 })
@@ -153,7 +152,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "صيد فواكه",
 	Callback = function()
-      		getgenv().Team = "Marines" -- Pirates/Marines
+      		
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
   	end    
 })
@@ -386,7 +385,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "ام ام تو ",
+	Name = "ام ام تو",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/KxGOATESQUE/SilentRivals/main/SilentRivals"))()
   	end    
