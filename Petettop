@@ -363,12 +363,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "ام ام تو",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/KxGOATESQUE/SilentRivals/main/SilentRivals"))()
-  	end    
-})
 
 
 Tab:AddButton({
@@ -389,7 +383,6 @@ Tab:AddButton({
       		loadstring(game:HttpGet(('https://raw.githubusercontent.com/NOOBHUBX/DemonFall/main/NOOB%20HUB.Lua'),true))()
   	end    
 })
-
 
 
 
@@ -434,14 +427,6 @@ Tab:AddButton({
 })
 
 
-
-
-Tab:AddButton({
-	Name = "سكربت ام ام تو 2",
-	Callback = function()
-      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
-  	end    
-})
 
 
 
