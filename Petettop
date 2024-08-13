@@ -88,18 +88,8 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "ستك",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua"))()
-  	end    
-})
 
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 
 Tab:AddButton({
 	Name = "وير ازير",
@@ -150,7 +140,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "صيد فواكه",
-	Callback = function(?		
+	Callback = function()	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
   	end    
 })
