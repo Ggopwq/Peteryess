@@ -141,6 +141,23 @@ Tab:AddButton({
   	end    
 })
 
+
+
+Tab:AddButton({
+	Name = "صيد فواكه",
+	Callback = function()
+      		getgenv().Team = "Marines" -- Pirates/Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
+  	end    
+})
+
+
+
+
+
+
+
+
 Tab:AddButton({
 	Name = "مارس",
 	Callback = function()
