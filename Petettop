@@ -370,6 +370,23 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "ماب doors",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "بت سلميتر",
+	Callback = function()
+      		loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+  	end    
+})
+
+
+
 
 
 
