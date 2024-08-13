@@ -138,15 +138,6 @@ Tab:AddButton({
 
 
 
-Tab:AddButton({
-	Name = "صيد فواكه",
-	Callback = function()	
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
-  	end    
-})
-
-
-
 
 
 
