@@ -91,7 +91,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "ستك",
 	Callback = function()
-  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua"))()
   	end    
 })
@@ -151,8 +150,7 @@ Tab:AddButton({
 
 Tab:AddButton({
 	Name = "صيد فواكه",
-	Callback = function()
-      		
+	Callback = function(?		
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
   	end    
 })
@@ -437,8 +435,6 @@ Tab:AddButton({
 
 
 
-
-
 Tab:AddButton({
 	Name = "سكربت ماب كره القدم او TPS",
 	Callback = function()
@@ -469,12 +465,6 @@ Tab:AddButton({
   	end    
 })
 
-Tab:AddButton({
-	Name = "سكربت ما ام ام تو mm2",
-	Callback = function()
-Sloadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
-  	end    
-})
 
 Tab:AddButton({
 	Name = "سكربت ماب البيوت",
@@ -502,10 +492,7 @@ Tab:AddButton({
   	end    
 })
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+
 
 Tab:AddButton({
 	Name = "بليد بول 2",
@@ -513,17 +500,6 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
   	end    
 })
-
-
-Tab:AddButton({
-	Name = "ماب الرعب او دورز doors",
-	Callback = function()
-      		print("button pressed")
-  	end    
-})
-
-
-
 
 
 
