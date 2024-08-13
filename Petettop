@@ -176,6 +176,13 @@ Callback = <function> - The function of the button.
 ]]
 
 
+Tab:AddButton({
+	Name = "سكربت بلوكس",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Script-Blox'))()
+  	end    
+})
+
 
 
 
