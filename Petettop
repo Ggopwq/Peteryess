@@ -27,7 +27,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "اصدار v0.013"
+	Name = "اصدار v0.014"
 })
 
 --[[
@@ -88,7 +88,14 @@ Tab:AddButton({
   	end    
 })
 
-
+Tab:AddButton({
+	Name = "ستك",
+	Callback = function()
+      		getgenv().Team = "Pirates"
+getgenv().Executor = "Android" -- Android or PC --
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua"))()
+  	end    
+})
 
 
 --[[
@@ -378,6 +385,12 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "ام ام تو ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/KxGOATESQUE/SilentRivals/main/SilentRivals"))()
+  	end    
+})
 
 
 Tab:AddButton({
@@ -403,6 +416,12 @@ Tab:AddButton({
 })
 
 
+Tab:AddButton({
+	Name = "",
+	Callback = function()
+      		‏loadstring(game:HttpGet("https://raw.githubusercontent.com/PotatoesDev/Lunar/main/LunarXyz.lua"))()
+  	end   
+})
 
 
 
