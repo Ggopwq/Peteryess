@@ -234,7 +234,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 Tab:AddButton({
 	Name = "سكربت القمر او كوكا",
 	Callback = function()
-      		_G.Key = "SAomXVvOqd"
+      		_G.Key = "CuYLRS0ym8"
 loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
   	end    
 })
