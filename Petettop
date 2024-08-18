@@ -27,7 +27,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "اصدار v0.014"
+	Name = "اصدار v0.015"
 })
 
 --[[
@@ -400,6 +400,23 @@ Tab:AddButton({
 
 
 
+Tab:AddButton({
+	Name = "سكربت قفل",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Baseplate-Universal-Script-Permanent-Shift-Lock-6924"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "اخفاء شخصيه",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+  	end    
+})
+
+
+
 
 
 Tab:AddButton({
@@ -441,8 +458,13 @@ Tab:AddButton({
 })
 
 
-
-
+Tab:AddButton({
+	Name = "ماب البيوت",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
+  	end    
+})
+ 
 
 Tab:AddButton({
 	Name = "Flex Your FPS!",
