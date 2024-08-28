@@ -90,6 +90,27 @@ Tab:AddButton({
 
 
 
+Tab:AddButton({
+	Name = "سكربت الذئب",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader", true))()
+  	end    
+})
+
+
+
+
+Tab:AddButton({
+	Name = "ريلز اخو ريدز",
+	Callback = function()
+      		loadstring(Game:HttpGet"https://relzhub.xcodehoster.com/loader.lua")()
+  	end    
+})
+
+
+
+
+
 
 Tab:AddButton({
 	Name = "وير ازير",
@@ -523,6 +544,13 @@ Tab:AddButton({
 	Name = "بليد بول 2",
 	Callback = function()
       		loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "بليد بول 3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/trashscript/main/chaotic.lua"))()
   	end    
 })
 
