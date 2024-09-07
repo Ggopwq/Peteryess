@@ -47,3 +47,9 @@ local Tab1 = Window:MakeTab({"بلوكس فروت", "cool"})
 Tab1:AddButton({"ريدز", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 end})
+
+
+
+Tab1:AddButton({"سكربت من جيمنج", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/main/MinGamingEng"))()
+end})
