@@ -23,7 +23,22 @@ end})
 Tab1:AddButton({"نسخ يوزر صانع السكربت", function()
 setclipboard('@AP_7N')
 end})
+local Toggle1 = Tab1:AddToggle({
+  Name = "Speed",
+  Description = "Idk",
+  Default = false
+})
 
+Tab1:AddSlider({
+  Name = "سرعه اللاعب",
+  Min = 1,
+  Max = 100,
+  Increase = 1,
+  Default = 16,
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+  end
+})
 
 
 local Tab1 = Window:MakeTab({"بلوكس فروت", "cool"})
