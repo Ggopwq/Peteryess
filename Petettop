@@ -43,6 +43,11 @@ Tab1:AddSlider({
 
 local Tab1 = Window:MakeTab({"بلوكس فروت", "cool"})
 
+Tab1:AddButton({"----سكربتات بدون مفتاح---", function()
+print("Hello World!")
+end})
+
+
 
 Tab1:AddButton({"ريدز", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
@@ -50,6 +55,25 @@ end})
 
 
 
-Tab1:AddButton({"سكربت من جيمنج", function()
+Tab1:AddButton({"سكربت من جيمنج/ تلفيل وبدون لاق", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/main/MinGamingEng"))()
+end})
+
+
+Tab1:AddButton({"وير ازير / تفريم البحر والهايدرا", function()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+end})
+
+
+
+
+
+Tab1:AddButton({"دايمونك / جميل", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+end})
+
+
+Tab1:AddButton({"بريميوم / تفريم كاتاكوري وضرب سريع جدا", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
 end})
