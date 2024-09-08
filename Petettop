@@ -49,7 +49,7 @@ end})
 
 
 
-Tab1:AddButton({"ريدز", function()
+Tab1:AddButton({"ريدز/ سيوف اودن", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 end})
 
@@ -77,3 +77,30 @@ end})
 Tab1:AddButton({"بريميوم / تفريم كاتاكوري وضرب سريع جدا", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
 end})
+
+
+Tab1:AddButton({"سيد/عده اشياء", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+end})
+
+
+
+Tab1:AddButton({"----سكربتات تحتاج مفاتيح ---", function()
+print("Hello World!")
+end})
+
+
+
+
+Tab1:AddButton({"هوهو/ يحتوى على عده اشياء", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+
+end})
+
+
+
+Tab1:AddButton({"القمر /تفريم عظام وتلفيل اساليب وسيوف زورو", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+end})
+
+
