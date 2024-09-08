@@ -99,8 +99,7 @@ end})
 
 
 
-Tab1:AddButton({"القمر /تفريم عظام وتلفيل اساليب وسيوف زورو", function()
+Tab1:AddButton({"سيوف زورو وتريل", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
 end})
-
 
