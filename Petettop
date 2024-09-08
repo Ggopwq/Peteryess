@@ -103,3 +103,32 @@ Tab1:AddButton({"سيوف زورو وتريل", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
 end})
 
+local Tab1 = Window:MakeTab({"ماب البيوت", "cool"})
+
+
+
+
+
+local Tab1 = Window:MakeTab({"بليد بول", "cool"})
+
+
+
+
+local Tab1 = Window:MakeTab({"كينج لجسي", "cool"})
+
+
+
+local Tab1 = Window:MakeTab({"mm2", "cool"})
+
+
+local Tab1 = Window:MakeTab({"doors", "cool"})
+
+
+
+local Tab1 = Window:MakeTab({"سكربتات ومابات عشوائيه", "cool"})
+
+
+
+local Tab1 = Window:MakeTab({"Tab 1", "cool"})
+
+
