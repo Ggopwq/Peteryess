@@ -129,6 +129,6 @@ local Tab1 = Window:MakeTab({"سكربتات ومابات عشوائيه", "cool
 
 
 
-local Tab1 = Window:MakeTab({"Tab 1", "cool"})
+local Tab1 = Window:MakeTab({"the strongest battlegrounds", "cool"})
 
 
