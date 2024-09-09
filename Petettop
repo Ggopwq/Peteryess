@@ -106,10 +106,18 @@ end})
 local Tab1 = Window:MakeTab({"ماب البيوت", "cool"})
 
 
-
+Tab1:AddButton({"ماب البيوت 1", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.5/main/SanderXV2.5.lua')))()
+end})
 
 
 local Tab1 = Window:MakeTab({"بليد بول", "cool"})
+
+Tab1:AddButton({"بليد بول 1", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+end})
+
+
 
 
 
