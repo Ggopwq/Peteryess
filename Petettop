@@ -67,6 +67,12 @@ end})
 
 
 
+Tab1:AddButton({"صيد بونتي", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/daviduts1/rua-hub/main/auto%20bouty"))()
+end})
+
+
+
 
 
 Tab1:AddButton({"دايمونك / جميل", function()
@@ -131,8 +137,19 @@ getgenv().CustomDistance = 10 -- For Bug Can't Swipe Distance
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
 end})
 
+Tab1:AddButton({"كينج لجسي 2", function()
+loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()
+end})
 
 
+
+Tab1:AddButton({"كينج لجسي 3", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/mobileX/main/FreeScript.lua")()
+end})
+
+Tab1:AddButton({"كينج لجسي 4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+end})
 
 
 local Tab1 = Window:MakeTab({"mm2", "cool"})
@@ -145,6 +162,12 @@ end})
 
 
 local Tab1 = Window:MakeTab({"doors", "cool"})
+
+
+
+Tab1:AddButton({"doors", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+end})
 
 
 
@@ -162,6 +185,34 @@ end})
 Tab1:AddButton({"رقصات", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
 end})
+
+
+
+Tab1:AddButton({"ماب الكره او TPS", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Street%20Soccer'))()
+end})
+
+Tab1:AddButton({"ديمون فال او demon fall", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LynchHHU/AF-ScriptHub/main/Protected_8448829756613131.txt"))()
+end})
+
+
+Tab1:AddButton({"مشيات", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end})
+
+
+
+Tab1:AddButton({"شيندو لايف 1", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+end})
+
+
+
+Tab1:AddButton({"شيندو لايف 2", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+end})
+
 
 local Tab1 = Window:MakeTab({"the strongest battlegrounds", "cool"})
 
